@@ -30,8 +30,6 @@
             <groupId>commons-city</groupId>
             <artifactId>com.foody.net.commons.city</artifactId>
             <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/src/main/java/com/example/test/one/lib/com.foody.net.commons.city-1.0.jar</systemPath>
         </dependency>
 
         <dependency>
@@ -81,12 +79,12 @@
         </dependencies>
     </dependencyManagement>
 
-<!--    <repositories>-->
-<!--        &lt;!&ndash;other repositories if any&ndash;&gt;-->
-<!--        <repository>-->
-<!--            <id>project.local</id>-->
-<!--            <name>project</name>-->
-<!--            <url>file:${project.basedir}/repo</url>-->
-<!--        </repository>-->
-<!--    </repositories>-->
+    <repositories>
+        <!--other repositories if any-->
+        <repository>
+            <id>project.local</id>
+            <name>project</name>
+            <url>file:${project.basedir}/repo</url>
+        </repository>
+    </repositories>
 </project>
